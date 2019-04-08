@@ -32,8 +32,17 @@ La llamadas que van llegando al callcenter se van agregando a una cola en espera
 - **CallCenterTest2 (Test #2):** Test con más de 10 llamadas, en este caso 11 llamadas. Clase para Test unitario en el que llegan 11 llamadas al callcenter. En el callcenter hay 10 empleados, por lo que el sistema para atender las 11 llamadas, atenderá la primeras 10 al mismo tiempo con los 10 empleados, y el primer empleado en terminar su respectiva llamada tomará la 11 llamada, teniendo en cuenta su cargo.
 
 # BASE DE DATOS
-Para la creación de la base de datos SQL ejecutar el archivo ´´´callcenteralmundo.sql´´´ (MySQL).
+Para la creación de la base de datos SQL ejecutar el archivo ```callcenteralmundo.sql``` (MySQL).
 ![Tabla de la base de datos](https://raw.githubusercontent.com/orejuelajd/callcenter/master/resources/tablas_base_datos.PNG)
+
+Para la conexión del aplicativo con la base de datos se instaló la siguiente dependencia:
+´´´
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.6</version>
+</dependency>
+´´´
 
 # GUI
 ![Mockup](https://raw.githubusercontent.com/orejuelajd/callcenter/master/resources/mockup_gui.PNG)
