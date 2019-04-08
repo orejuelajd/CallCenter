@@ -11,8 +11,6 @@ La llamadas que van llegando al callcenter se van agregando a una cola en espera
 
 # CLASES
 
-![Diagrama de clases](https://raw.githubusercontent.com/orejuelajd/callcenter/master/resources/uml_callcenter.png)
-
 - **CallCenter:** Clase principal del programa. Inicia el creador de llamadas (CallCreator) y al despachador de llamadas (Dispatcher).
 
 - **CallCreator:** Esta clase se encarga principalmente de la generación permanente de llamadas para que puedan ser atendidas por los empleados del callcenter.
