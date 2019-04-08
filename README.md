@@ -36,13 +36,13 @@ Para la creación de la base de datos SQL ejecutar el archivo ```callcenteralmun
 ![Tabla de la base de datos](https://raw.githubusercontent.com/orejuelajd/callcenter/master/resources/tablas_base_datos.PNG)
 
 Para la conexión del aplicativo con la base de datos se instaló la siguiente dependencia:
-´´´
+```
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>5.1.6</version>
 </dependency>
-´´´
+```
 
 # GUI
 ![Mockup](https://raw.githubusercontent.com/orejuelajd/callcenter/master/resources/mockup_gui.PNG)
