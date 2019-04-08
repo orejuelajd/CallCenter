@@ -1,0 +1,8 @@
+#surefire
+#Sun Apr 07 16:22:07 COT 2019
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\bender\\Desktop\\callcenter
+file.encoding=UTF-8
+localRepository=C\:\\Users\\bender\\.m2\\repository
+basedir=C\:\\Users\\bender\\Desktop\\callcenter
+test=CallCenterTest
